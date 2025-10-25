@@ -7,7 +7,7 @@
 
 ## Academic Integrity and Project Context
 
-[cite_start]This project is a **personal Python implementation** of an econometric analysis assignment for the "Applied Econometrics II" module at the University of Nottingham[cite: 20].
+This project is a **personal Python implementation** of an econometric analysis assignment for the "Applied Econometrics II" module at the University of Nottingham.
 
 The original assignment was completed using Stata. The purpose of this repository is to:
 1.  **Demonstrate Technical Proficiency:** Showcase my ability to independently replicate a complex econometric workflow using the Python (Pandas, Statsmodels, Matplotlib) ecosystem.
@@ -17,12 +17,12 @@ All Python code in the `.ipynb` notebook is my original work.
 
 ## Project Goal
 
-[cite_start]This analysis investigates whether inflation data can improve the accuracy of unemployment rate forecasts for the UK (GBR) and German (DEU) economies[cite: 22].
+This analysis investigates whether inflation data can improve the accuracy of unemployment rate forecasts for the UK (GBR) and German (DEU) economies.
 
 The workflow involves:
 1.  **Data Preparation:** Loading, cleaning, and visualizing the time-series data.
-2.  [cite_start]**Model Selection (In-Sample):** Building and comparing Autoregressive (AR) and Autoregressive Distributed Lag (ARDL) models[cite: 23], using AIC and Breusch-Godfrey tests for selection.
-3.  [cite_start]**Forecasting (Out-of-Sample):** Using the selected models to forecast unemployment rates for the 2016q1-2019q4 period[cite: 24].
+2.  **Model Selection (In-Sample):** Building and comparing Autoregressive (AR) and Autoregressive Distributed Lag (ARDL) models, using AIC and Breusch-Godfrey tests for selection.
+3.  **Forecasting (Out-of-Sample):** Using the selected models to forecast unemployment rates for the 2016q1-2019q4 period.
 4.  **Evaluation:** Assessing forecast accuracy using Mean Squared Error (MSE) and Mean Absolute Error (MAE).
 
 ## Skills & Tools Used
