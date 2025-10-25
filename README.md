@@ -1,7 +1,7 @@
 # Econometric Forecasting of Unemployment Rates (Stata to Python)
 
 **Author:** Xiaoyang Ma
-**GitHub Profile:** [(https://github.com/Xiaoyang02-bot)]
+**GitHub Profile:** https://github.com/Xiaoyang02-bot
 
 ---
 
