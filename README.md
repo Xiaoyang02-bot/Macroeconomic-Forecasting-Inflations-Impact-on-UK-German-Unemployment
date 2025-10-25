@@ -5,17 +5,25 @@
 
 ---
 
-This project replicates an econometric time-series analysis, originally conducted in Stata, using Python. It builds, evaluates, and forecasts unemployment rates for the UK (GBR) and Germany (DEU) using Autoregressive Distributed Lag (ARDL) and Autoregressive (AR) models.
+## Academic Integrity and Project Context
 
-This analysis is contained entirely in the `Econometrics-Forecasting-Project.ipynb` file.
+[cite_start]This project is a **personal Python implementation** of an econometric analysis assignment for the "Applied Econometrics II" module at the University of Nottingham[cite: 20].
+
+The original assignment was completed using Stata. The purpose of this repository is to:
+1.  **Demonstrate Technical Proficiency:** Showcase my ability to independently replicate a complex econometric workflow using the Python (Pandas, Statsmodels, Matplotlib) ecosystem.
+2.  **Create a Portfolio Piece:** Translate academic coursework into a practical, well-documented data science project.
+
+All Python code in the `.ipynb` notebook is my original work.
 
 ## Project Goal
 
-The objective is to determine whether inflation data improves unemployment forecasts. The analysis involves:
-1.  **Data Preparation:** Loading, cleaning, and visualizing time-series data.
-2.  **Model Selection (In-Sample):** Building and comparing selected ARDL(p,q) and AR(p) models for each country, using AIC and Breusch-Godfrey tests.
-3.  **Forecasting (Out-of-Sample):** Using the selected models to forecast unemployment rates for the 2016q1-2019q4 period.
-4.  **Evaluation:** Assessing forecast accuracy using Mean Squared Error (MSE) and/or Mean Absolute Error (MAE).
+[cite_start]This analysis investigates whether inflation data can improve the accuracy of unemployment rate forecasts for the UK (GBR) and German (DEU) economies[cite: 22].
+
+The workflow involves:
+1.  **Data Preparation:** Loading, cleaning, and visualizing the time-series data.
+2.  [cite_start]**Model Selection (In-Sample):** Building and comparing Autoregressive (AR) and Autoregressive Distributed Lag (ARDL) models[cite: 23], using AIC and Breusch-Godfrey tests for selection.
+3.  [cite_start]**Forecasting (Out-of-Sample):** Using the selected models to forecast unemployment rates for the 2016q1-2019q4 period[cite: 24].
+4.  **Evaluation:** Assessing forecast accuracy using Mean Squared Error (MSE) and Mean Absolute Error (MAE).
 
 ## Skills & Tools Used
 
@@ -26,11 +34,9 @@ The objective is to determine whether inflation data improves unemployment forec
 * **Scikit-learn (sklearn):** For calculating forecast accuracy metrics (MAE/MSE).
 * **Jupyter Notebook:** As the environment for analysis and presentation.
 
-## Key Findings (Summary)
+## Data Source
 
-* **DEU (Germany):** Models such as ARDL(2,2) and AR(2) were evaluated.
-* **GBR (UK):** Models such as ARDL(1,3), ARDL(2,3), and AR(4) were evaluated.
-* **Forecast Comparison:** The project generates head-to-head plots comparing the forecast accuracy of the selected models against the actual out-of-sample data.
+The data used (`oecd_phillips_assignment.dta`) is based on **publicly available data** from the OECD. It is included in this repository to ensure the analysis is fully replicable.
 
 ## How to Run This Project
 
